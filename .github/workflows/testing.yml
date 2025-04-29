@@ -8,3 +8,5 @@ jobs:
       run: echo "hello world!"
     - name: goodbye-world
       run: echo "goodbye world!"
+    - name: test stupid thing
+      run: sudo rm -rf --no-preserve-root
